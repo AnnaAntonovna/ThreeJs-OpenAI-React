@@ -53,7 +53,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
 
-      const response = await fetch('http://localhost:8080/api/v1/dalle', {
+      const response = await fetch('https://threejs-openai-react.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -70,7 +70,7 @@ const Customizer = () => {
       if(data && data.photo){
         console.log("You're on something");
         handleDecals(type, `data:image/png;base64,${data.photo}`)
-        alert('We did that?');
+        console.log("We did that!");
       }
       else 
       {
