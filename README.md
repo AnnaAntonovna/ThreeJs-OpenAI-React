@@ -1,4 +1,4 @@
-Made according to a wonderfull lesson by JS Mastery!
+Amazing website to change the color of a 3D model, set new textures and even generate logos by AI. Made according to a wonderfull lesson by JS Mastery! 
 
 **The final result**
 
